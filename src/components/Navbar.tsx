@@ -10,6 +10,8 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+const resumeUrl = `${import.meta.env.BASE_URL}Jenish_Chovatiya-Resume.pdf`;
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -46,8 +48,9 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/Jenish_Chovatiya-Resume.pdf"
+            href={resumeUrl}
             target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-medium rounded-lg border border-primary/50 text-primary hover:bg-primary/10 transition-all duration-200"
           >
             Resume

@@ -19,7 +19,7 @@ const ContactSection = () => {
             <span className="gradient-text">Get In Touch</span>
           </h2>
           <p className="text-muted-foreground mb-10 leading-relaxed">
-            I'm currently open to new opportunities. Whether you have a question, 
+            I'm currently open to new opportunities. Whether you have a question,
             a project idea, or just want to connect — my inbox is always open!
           </p>
         </motion.div>
@@ -67,7 +67,7 @@ const ContactSection = () => {
           className="flex justify-center gap-4"
         >
           <a
-            href="https://www.linkedin.com/in/jenish-chovatiya"
+            href="https://www.linkedin.com/in/jenishchovatiya186"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-lg glass-hover flex items-center justify-center group"
@@ -75,7 +75,7 @@ const ContactSection = () => {
             <Linkedin size={18} className="text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="https://github.com/jenishchovatiya"
+            href="https://github.com/jenchovatiya10"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-lg glass-hover flex items-center justify-center group"
